@@ -12,7 +12,7 @@ yepnope([
       }
     },
     complete: function () {
-      new Taikai();
+      window.taikai = new Taikai();
     }
   },
 ]);
