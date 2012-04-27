@@ -1,4 +1,6 @@
-test("module without setup/teardown (default)", function() {
-	expect(1);
-	ok(true);
+test("Add player", function() {
+  var taikai = new Taikai();
+  taikai.addPlayer('Siri', 'Scorpion');
+  equal(taikai.players.Siri.name, 'Siri');
+  equal(taikai.players.Siri.clan, 'Scorpion');
 });
