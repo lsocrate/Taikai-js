@@ -18,4 +18,6 @@ Taikai.prototype.addPlayer = function(name, clan) {
     GW: 0,
     TP: 0
   });
+
+  return this;
 };
